@@ -22,7 +22,7 @@ $ npm install -g limitlog
 $ sfdx COMMAND
 running command...
 $ sfdx (-v|--version|version)
-limitlog/0.0.0 darwin-x64 node-v11.10.1
+limitlog/1.0.0 darwin-x64 node-v11.10.1
 $ sfdx --help [COMMAND]
 USAGE
   $ sfdx COMMAND
@@ -34,10 +34,10 @@ USAGE
 
 ## `sfdx bblimlog:test [-n <string>] [-t <string>] [-s <string>] [-w] [-r <string>] [-v <string>] [-u <string>] [--apiversion <string>] [--json] [--loglevel trace|debug|info|warn|error|fatal|TRACE|DEBUG|INFO|WARN|ERROR|FATAL]`
 
-print a greeting and your org IDs
+Runs a test and extracts limits information, optionally writing to a Salesforce org
 
 ```
-print a greeting and your org IDs
+Runs a test and extracts limits information, optionally writing to a Salesforce org
 
 USAGE
   $ sfdx bblimlog:test [-n <string>] [-t <string>] [-s <string>] [-w] [-r <string>] [-v <string>] [-u <string>] 
@@ -83,7 +83,7 @@ EXAMPLE
   Limits information written to Salesforce
 ```
 
-_See code: [lib/commands/bblimlog/test.js](https://github.com/keirbowden/limitlog/blob/v0.0.0/lib/commands/bblimlog/test.js)_
+_See code: [lib/commands/bblimlog/test.js](https://github.com/keirbowden/limitlog/blob/v1.0.0/lib/commands/bblimlog/test.js)_
 <!-- commandsstop -->
 <!-- debugging-your-plugin -->
 # Debugging your plugin

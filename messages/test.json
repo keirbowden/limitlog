@@ -1,5 +1,5 @@
 {
-  "commandDescription": "print a greeting and your org IDs",
+  "commandDescription": "Runs a test and extracts limits information, optionally writing to a Salesforce org",
   "nameFlagDescription": "name to use when writing the limit object",
   "testFlagDescription": "Name of test to run",
   "namespaceFlagDescription": "Namespace of the limits output (omit for default namespace)",
