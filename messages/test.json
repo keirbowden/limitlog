@@ -1,0 +1,14 @@
+{
+  "commandDescription": "print a greeting and your org IDs",
+  "nameFlagDescription": "name to use when writing the limit object",
+  "testFlagDescription": "Name of test to run",
+  "namespaceFlagDescription": "Namespace of the limits output (omit for default namespace)",
+  "writeFlagDescription": "Write the limits information to Salesforce",
+  "runtestusernameFlagDescription": "Username/alias to run the tests as (omit to use the same username as the -u/-a switch) ",
+  "runningTest": "Executing test %s",
+  "retrievingLog": "Retrieving test log file",
+  "processingLog": "Extracting limits information",
+  "writingToSalesforce": "Writing limits information to Salesforce",
+  "salesforceErrorWriting": "Error writing the limit information to Salesforce - %s",
+  "wroteToSalesforce": "Limits information written to Salesforce"
+}
